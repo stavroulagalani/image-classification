@@ -1,0 +1,7 @@
+# Ignore virtual environments and temporary files
+image/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

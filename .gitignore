@@ -1,7 +1,23 @@
-# Ignore virtual environments and temporary files
-image/
+# Ignore virtual environments
+classification/
 venv/
 env/
+
+# Ignore training data and test images
+data/
+*.jpg
+*.jpeg
+*.png
+
+# Ignore logs and TensorBoard outputs
+logs/
+*.tfevents.*
+
+# Ignore Python caches
 __pycache__/
 *.pyc
+
+# Ignore notebook checkpoints
 .ipynb_checkpoints/
+
+image/

@@ -36,10 +36,6 @@ After training, the model can be used to make predictions on new MRI images. A p
 
 The trained model is saved in HDF5 format (`.h5`) so it can be loaded later for predictions without retraining.
 
-## Using the Pretrained Model (`.h5`)
-
-This project includes a pretrained brain tumor classification model saved in `models/brain_tumor_model.h5`.
-
 ## Summary
 
 This project demonstrates how a deep learning model can be trained to classify medical images with high accuracy using a relatively simple CNN architecture.

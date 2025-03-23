@@ -4,10 +4,10 @@ venv/
 env/
 
 # Ignore training data and test images
-data/
-*.jpg
-*.jpeg
-*.png
+#data/
+#*.jpg
+#*.jpeg
+#*.png
 
 # Ignore logs and TensorBoard outputs
 logs/
